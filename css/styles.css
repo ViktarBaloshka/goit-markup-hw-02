@@ -28,11 +28,15 @@ body {
 /*Logo*/
 
 .logo {
+  text-decoration: none;
+
   font-family: Raleway;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
+
+  color: var(--first-fonts-color);
 }
 
 .color-web {
@@ -47,9 +51,25 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
+
+.nav-link {
+  text-decoration: none;
+  color: var(--first-fonts-color);
+}
+
+.nav-link:hover {
+  color: var(--active-element-color);
+}
+
+.nav-items {
+  list-style: none;
+}
+
 /*Contacts*/
 
 .contacts {
+  list-style: none;
+
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -58,6 +78,14 @@ body {
   color: var(--second-fonts-color);
 }
 
+.contacts-link {
+  text-decoration: none;
+  color: var(--second-fonts-color);
+}
+
+.contacts-link:hover {
+  color: var(--active-element-color);
+}
 /*---------------Section main-------------*/
 
 .hero {
@@ -70,9 +98,6 @@ body {
 
   background-color: var(--hero-color);
   color: var(--text-color);
-}
-
-.link {
 }
 
 .order-service {
