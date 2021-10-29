@@ -54,6 +54,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+
   color: var(--second-fonts-color);
 }
 
@@ -75,15 +76,11 @@ body {
 }
 
 .order-service {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
-
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.06em;
-
   cursor: pointer;
+
   background-color: var(--active-element-color);
   color: var(--text-color);
 }
