@@ -60,11 +60,13 @@ body {
   color: var(--first-fonts-color);
 }
 
-.nav-link:hover {
+.nav-link:hover,
+.nav-link:focus,
+.contacts-link:hover,
+.contacts-link:focus {
   color: var(--active-element-color);
 }
-
-.nav-link:focus {
+.nav-items .active:active {
   color: var(--active-element-color);
 }
 
@@ -88,10 +90,6 @@ body {
 .contacts-link {
   text-decoration: none;
   color: var(--second-fonts-color);
-}
-
-.contacts-link:hover {
-  color: var(--active-element-color);
 }
 
 /*---------------Section hero-------------*/
@@ -118,6 +116,13 @@ body {
 
   background-color: var(--active-element-color);
   color: var(--basic-color);
+}
+
+.order-service:hover,
+.order-service:focus {
+  background: #188ce8;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
 }
 
 /*---------------Section tips-------------*/
@@ -209,23 +214,25 @@ body {
 }
 
 .filter-button {
-  border-radius: 4px;
-  border: 0;
-
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
+  font-family: 'Roboto', sans-serif;
   text-align: center;
   letter-spacing: 0.03em;
 
+  border-radius: 4px;
+  border: 0;
+
   color: var(--first-fonts-color);
 }
-
+.filter-button:hover,
 .filter-button:focus {
   background-color: var(--active-element-color);
+  color: var(--basic-color);
 }
 
-.filter-button:hover {
+.filter-list .active:active {
   background-color: var(--active-element-color);
 }
 
