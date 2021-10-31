@@ -112,6 +112,9 @@ body {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
+  font-family: 'Roboto', sans-serif;
+  border: none;
+  border-radius: 4px;
 
   background-color: var(--active-element-color);
   color: var(--basic-color);
@@ -131,11 +134,12 @@ body {
   text-transform: uppercase;
 }
 
-.text-tips {
+.tips-text {
   font-weight: 400;
   font-size: var(--font-size-14);
   line-height: 1.71;
   letter-spacing: 0.03em;
+  color: var(--second-fonts-color);
 }
 
 /*---------------Section make-------------*/
@@ -205,10 +209,12 @@ body {
 }
 
 .filter-button {
+  border-radius: 4px;
+  border: 0;
+
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
-
   text-align: center;
   letter-spacing: 0.03em;
 
